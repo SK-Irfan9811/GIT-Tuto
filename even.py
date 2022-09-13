@@ -4,4 +4,3 @@ if(N%2==0:):
 else:
     print("ODD")
 
-Even or odd program
