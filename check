@@ -1,0 +1,9 @@
+class Solution{
+public static void main(String ar[]){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enterr a new number");
+int N=sc.nextInt();
+System.out.println("first Number is"+N);
+//lets end here
+}
+}
