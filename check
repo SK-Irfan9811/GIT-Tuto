@@ -11,3 +11,12 @@ System.out.println("first Number is"+N);
 int M=sc.nextInt([);
 System.ot.println("Second number is"+M);
 [A[C[C[C[C[C[C[C[Cu[B[D[D[D[D[D[D[D[D[D//lets end this
+//lets do operations
+System.out.println("addition is....");
+int add=M+N;
+System.out.println([C[Dadd);
+//lets end here
+System.out.pritnln("sub is");
+int sub=M-N;
+System.out.pritnln(sub);
+//oveer
