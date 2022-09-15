@@ -7,6 +7,7 @@ System.out.println("first Number is"+N);
 //lets end here
 }
 }
+<<<<<<< HEAD
 //lets read another number
 int M=sc.nextInt([);
 System.ot.println("Second number is"+M);
@@ -20,3 +21,5 @@ System.out.pritnln("sub is");
 int sub=M-N;
 System.out.pritnln(sub);
 //oveer
+=======
+>>>>>>> parent of 9586736 (Second number is added in check file)
