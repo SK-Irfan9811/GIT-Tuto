@@ -4,6 +4,7 @@ DEll
 HP 
 ACER
 <<<<<<< HEAD
+<<<<<<< HEAD
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
@@ -53,5 +54,7 @@ MSN
 Apple
 =======
 >>>>>>> parent of 06a0b51 (lap commit-1)
+=======
+>>>>>>> parent of 70e49a0 (lapcommit -3)
 =======
 >>>>>>> parent of 70e49a0 (lapcommit -3)
