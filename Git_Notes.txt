@@ -7,13 +7,22 @@ Histoty of git
    server side back up
 3.Distributed VCS
    Back up with every user incase of server collapse
----------------------
+--------------------------------------------
 Firstly we need to configure the git with usename
 In order to push the files to repo which is not there and need to create repo newly then add
 git push --set -upstream <ur lof repo> master
 git config --global user.name "<name>"
 git confing --blobal user.email "<email>"
----------------------
+-------------------------------------------
+working dir-->staging-->git directory(repo)
+git repo to working dir(checkout)
+-------------------------------------------
+rm -rf .git
+it deletes entire git  repo
+git --checkout <filename> to restore a file to its previos commit
+git restore --staged <filename> to unstage a file.
+git checkout -f-->to roll back all the files to previous commit 
+------------------------------------------------
 Source control management-version control..
 -->used to keep track of changes made by developers.
 :wq for saving in vim editor
