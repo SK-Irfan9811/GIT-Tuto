@@ -78,6 +78,8 @@ git checkout -b <branchname>
 will create a new branch where we can work out there and push to the master branch if it works successfully.
 git checkout master-->to redirect to master branch
 git checkout child-->checkout from master and go to child branch
+After commiting in child branch and ensure every thing is fine ,then merge it to the master branch
+Then push the code to the git hub.
 
 
 
