@@ -22,6 +22,7 @@ it deletes entire git  repo
 git --checkout <filename> to restore a file to its previos commit
 git restore --staged <filename> to unstage a file.
 git checkout -f-->to roll back all the files to previous commit 
+git config --global alias.st status-->for aliasing
 ------------------------------------------------
 Source control management-version control..
 -->used to keep track of changes made by developers.
@@ -72,6 +73,11 @@ If we want to add a file that has been in use and in tracking are also far,simpl
 in order to get all the commits in one line ,we use git log --pretty=oneline then we can have a list of all commits in one line to make pritable handy.
 git log --pretty=short to make all commits not messy ones.
 git log --since=2.days,weeks,months
+--------------------------------------------------------
+git checkout -b <branchname>
+will create a new branch where we can work out there and push to the master branch if it works successfully.
+git checkout master-->to redirect to master branch
+git checkout child-->checkout from master and go to child branch
 
 
 
