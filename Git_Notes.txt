@@ -9,7 +9,8 @@ Histoty of git
    Back up with every user incase of server collapse
 ---------------------
 Firstly we need to configure the git with usename
-
+In order to push the files to repo which is not there and need to create repo newly then add
+git push --set -upstream <ur lof repo> master
 git config --global user.name "<name>"
 git confing --blobal user.email "<email>"
 ---------------------
@@ -61,7 +62,7 @@ but whenever we use command line as git rm <file_name>,it will stage the change 
 If we want to add a file that has been in use and in tracking are also far,simply adding to the gitignore wont let us to untrack it.This procedure has to be done before the file has been created or initial modification."git rm --cached <file_name>" will make the file untracked and then the git will successfully ignore the file.
 in order to get all the commits in one line ,we use git log --pretty=oneline then we can have a list of all commits in one line to make pritable handy.
 git log --pretty=short to make all commits not messy ones.
-git log --since=2.days,weeks,months 
+git log --since=2.days,weeks,months
 
 
 
