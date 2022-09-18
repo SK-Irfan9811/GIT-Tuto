@@ -1,0 +1,67 @@
+git notes
+Histoty of git
+---------------------
+1.Local version Control System
+    local backup and roll backs
+2.Centralised VCS
+   server side back up
+3.Distributed VCS
+   Back up with every user incase of server collapse
+---------------------
+Firstly we need to configure the git with usename
+
+git config --global user.name "<name>"
+git confing --blobal user.email "<email>"
+---------------------
+Source control management-version control..
+-->used to keep track of changes made by developers.
+:wq for saving in vim editor
+git init for repo initiating
+git status for status 
+git commit for commiting
+if we add any file for tracking,then it will be tracked by the git and git add command will let us know the file scenario.
+until the git commit is done,it will be in staging area.
+after git commit the working tree will become empty...
+The folder which we are working on must be in git repo with git init cmd.That is the only place where files will  be in 3 stages.
+1.Modified 
+2.Staging(git add cmd)
+3.Commited(commit -m "msgg")
+whenever a file is created in the git repo,that will be remained as a untracked and the changes wont be tacked by the git until and 
+unless the file is tracked by git using "git add command".
+After creating a file and commiting first time that require the staging area,but for the next change we need not require the staging area,instead we can commit the file 
+without staging using "git commit -a -m "message".
+"Head" is indicated as the latest snapshot of the file change in the git log output. 
+git show with parameter as ID shows the lines that are changed.
+"git rm <fileName>" command to remove the files.
+After deleting also the commit has to be typed so that the working tree is empy.
+"git mv old_file new_file" to rename the files in git repo.
+"we can revert back to the previous version of the file if new version is causing error by the command ***git checkout file_name***".This will 
+make the working tree clean and the recent snapshot.
+git --amend is used to revert the changes made by the commit messages or actions.
+"git --amend" is before we commit the changes.
+Incase we commit a faulty change,we can revert back to the older version with git revert HEAD command
+HEAD-->Current snapshot of commit history
+the git revert HEAD will create a new commit that makes the current file look alike the last used version.
+git log -<number> shows the last n commits in the terminal
+git reflog -<number> convinient to show all the commits
+git revert <Commit ID> will delete the content of that commit snapshot in the current version.
+the .gitignore file will append all the unwanted files which are not to be considered.
+create a .gitignore file and files in it which are to be ignored.
+the files in the .gitignore will not be tracked and is ignored
+in order to delete all the .log filles put *.log in gitignore and whatever the files are created with .log will be ignored automatically.
+we can also add directories in gitignore file.simply add dir/ and save.
+***If the directory contains the files that are previously ignored then the same directory wont be tracked.***
+git diff will compare the staging area and working directory.
+if we add the modified file to statging area,those files get merged.
+suppose you created a file and sent to staging area and modified it and types git status.It will show 2 regions one with green(which is staged) and one region with red(which is modified)
+if we rename any file in git repo,then before untracked git assumes that a file is deleted and later created another one.
+after we staged then it comes to know that it has been renamed.
+if we delete a file manually then we need to add the current snapshot to staging area and then commit which may become clumsy.
+but whenever we use command line as git rm <file_name>,it will stage the change for us and we can commit later.
+If we want to add a file that has been in use and in tracking are also far,simply adding to the gitignore wont let us to untrack it.This procedure has to be done before the file has been created or initial modification."git rm --cached <file_name>" will make the file untracked and then the git will successfully ignore the file.
+in order to get all the commits in one line ,we use git log --pretty=oneline then we can have a list of all commits in one line to make pritable handy.
+git log --pretty=short to make all commits not messy ones.
+git log --since=2.days,weeks,months
+
+
+
