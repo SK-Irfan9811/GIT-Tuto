@@ -61,7 +61,7 @@ but whenever we use command line as git rm <file_name>,it will stage the change 
 If we want to add a file that has been in use and in tracking are also far,simply adding to the gitignore wont let us to untrack it.This procedure has to be done before the file has been created or initial modification."git rm --cached <file_name>" will make the file untracked and then the git will successfully ignore the file.
 in order to get all the commits in one line ,we use git log --pretty=oneline then we can have a list of all commits in one line to make pritable handy.
 git log --pretty=short to make all commits not messy ones.
-git log --since=2.days,weeks,months
+git log --since=2.days,weeks,months 
 
 
 
