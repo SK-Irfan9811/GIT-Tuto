@@ -80,6 +80,8 @@ git checkout master-->to redirect to master branch
 git checkout child-->checkout from master and go to child branch
 After commiting in child branch and ensure every thing is fine ,then merge it to the master branch
 Then push the code to the git hub.
-
+-----------------------------------------------------------
+git branch -delete <branch-name> for the branch which is  merged.
+git branch -D <branch-name> this is for the branch that is not merged.
 
 
