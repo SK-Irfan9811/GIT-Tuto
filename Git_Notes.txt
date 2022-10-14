@@ -83,5 +83,5 @@ Then push the code to the git hub.
 -----------------------------------------------------------
 git branch -delete <branch-name> for the branch which is  merged.
 git branch -D <branch-name> this is for the branch that is not merged.
-
+git push -u origin <branch-->to push local branches to the remote repo.
 
